@@ -25,6 +25,7 @@ export const fetchUsers = () => {
             resData[key].email,
             resData[key].password,
             resData[key].name,
+            resData[key].phone,
             resData[key].permission
           )
         );
@@ -69,6 +70,7 @@ export const createUser = (email, password, name, permission) => {
         email: email,
         name: name,
         password:password,
+        resData[key].phone,
         permission: permission,
       }),
     });
